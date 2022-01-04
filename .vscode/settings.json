@@ -20,5 +20,5 @@
     "package-lock.json": true,
     "*.{css,sass,scss}.d.ts": true
   },
-  "license.default": "gpl-3.0"
+  "license.default": "mit"
 }
