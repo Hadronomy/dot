@@ -1,16 +1,11 @@
 #!/bin/node
-import enquirer from './enquirer';
+import logger from '@/logger';
 
 /**
  * `dot` main program
  */
 async function MainProgram() {
-  const response = await enquirer.prompt({
-    type: 'confirm',
-    name: 'username',
-    message: 'What is your username?',
-  });
-  console.log(response);
+  logger.log('info', 'Hello');
 }
 
 MainProgram();
